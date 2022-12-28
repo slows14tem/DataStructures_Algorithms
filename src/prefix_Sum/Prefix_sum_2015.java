@@ -10,10 +10,10 @@ public class Prefix_sum_2015 {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String[] strs = br.readLine().split(" ");
-        int N = Integer.parseInt(strs[0]);
-        int K = Integer.parseInt(strs[1]);
-			
-        String[] num = br.readLine().split(" ");
+		int N = Integer.parseInt(strs[0]);
+		int K = Integer.parseInt(strs[1]);
+	
+		String[] num = br.readLine().split(" ");
 		
 		//배열 전체 누적합 계산
 		int[] K_arr = new int[N+1];
