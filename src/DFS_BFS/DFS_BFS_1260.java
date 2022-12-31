@@ -69,3 +69,11 @@ public class DFS_BFS_1260 {
 		}
 	}
 }
+
+//DFS/BFS, 최단 경로 알고리즘은 그래프 탐색 알고리즘의 한 유형
+//DFS(Depth First Search) 깊이 우선 탐색	(재귀, 스택 활용)
+//BFS(Breath First Search) 너비 우선 탐색	(큐 활용)
+
+//https://blog.naver.com/PostView.naver?blogId=kiho0530&logNo=150139178186&redirect=Dlog&widgetTypeCall=true&directAccess=false
+
+//https://velog.io/@cha-suyeon/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B9%8A%EC%9D%B4-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89DFS-%EA%B3%BC-%EB%84%88%EB%B9%84-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89BFS

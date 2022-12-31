@@ -67,10 +67,11 @@ public class DFS_BFS_2178 {
 				//좌표를 상하좌우로 움직임
 				
 				if (Maze_Check() == true && maze[nowx][nowy] != 0 && visited[nowx][nowy] == false) {
+					//현재 좌표가 미로 안쪽 && 벽이 아님 && 방문한 곳이 아님  세 조건을 충족할때만 실행
 					que.offer(new Node(nowx, nowy));
 					visited[nowx][nowy] = true;
 					maze[nowx][nowy] = maze[node.x][node.y] + 1;
-					//이동할 수 있는 칸이면 그 칸을 큐에 입력, 방문 체크, 이동 전 node좌표값에서 1을 추가(지나온 최소 칸수)
+					//이동할 수 있는 칸이면 그 칸을 큐에 입력, 방문 체크, 이동 전 node좌표값에서 1을 추가(지나온 최소 칸수 == 그래프 이론 가중치의 개념??)
 				}
 			}
 		}	
