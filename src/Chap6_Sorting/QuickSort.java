@@ -139,7 +139,7 @@ public class QuickSort {
 		a[idx2] = t;
 	}
 
-	// --- 퀵 정렬(비재귀 버전)---//
+	// --- 퀵 정렬(스택 버전(비재귀))---//
 	static void quickSort(int[] a, int left, int right) {
 
 		Stack<Point> st = new Stack<>(a.length);
